@@ -1,6 +1,6 @@
 # Nunjucks Starter Kit
 
-## Requirements
+## Requirement
 - Node: [https://nodejs.org/en/download]()
 
 ### How to start
@@ -26,6 +26,7 @@ Before you start, take a moment to see how the project structure looks like:
 - `src/templates/partials` : partial files like nav, user-tabs, menu, etc
 
 # Why?
+- works out of the box! 
 - output is plain html
 - serverless
 - can use free service like surge.sh, github pages
