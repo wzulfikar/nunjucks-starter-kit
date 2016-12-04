@@ -1,0 +1,20 @@
+{
+  "name": "nunjucks-starter-kit",
+  "version": "1.0.0",
+  "description": "Nunjucks starter kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wzulfikar@ymail.com",
+  "license": "MIT",
+  "homepage": "#",
+  "dependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-watch": "^4.3.11"
+  }
+}

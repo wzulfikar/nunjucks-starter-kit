@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% set title = 'in-page JS' %}
+{% set page = 'in-page-js' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <p>
+            You may want to check the code in <code>src/pages/in-page-js.html</code> :)
+        </p>
+        <button id="click-me">Click me!</button>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript">
+$('#click-me').on('click', function(){
+    alert('Button clicked!');
+});
+</script>
+{% endblock %}
