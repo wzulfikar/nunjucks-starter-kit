@@ -3,6 +3,11 @@
 ## Requirements
 - Node: [https://nodejs.org/en/download]()
 
+### How to start
+- download & unzip: [https://github.com/wzulfikar/nunjucks-starter-kit/archive/master.zip](https://github.com/wzulfikar/nunjucks-starter-kit/archive/master.zip)
+- run `gulp auto`
+- try change something inside `src/pages` & your browser will auto-reload, displaying the change you just made.
+
 ---
 
 - we use nunjucks as HTML Template Engine. official docs: [https://mozilla.github.io/nunjucks/]()
@@ -20,20 +25,11 @@ Before you start, take a moment to see how the project structure looks like:
 - `src/templates` : layout files
 - `src/templates/partials` : partial files like nav, user-tabs, menu, etc
 
-### How to start
-1. Get latest version
-  - using git:
-  - download raw
-- Run gulp
-- example is using bootstrap
-
 # Why?
-- no need server
-- npm is the only requirement
 - output is plain html
-- can use free service like surge.sh
-- https://pages.github.com
-
+- serverless
+- can use free service like surge.sh, github pages
+- knowledge needed: html, css, js. no need for php, ruby, etc. just plain html, css & js.
 
 ## sample workflow
 A. without auto-render
@@ -48,7 +44,7 @@ A. without auto-render
 B. with auto-render
 
 1. run `gulp watch`
-- as you edit src, dist gulp watch will do the rendering behind the scene n updates dist directory
+- as you edit src, dist gulp watch will do the rendering behind the scene n updates dist directory: you need to reload your browser to see the changes
 - publish dist to hosting provider
 
 *video here*
@@ -60,18 +56,3 @@ C. with auto-render & auto-reload (via browsersync)
 - using this workflow, when you edit `src` the `dist` will be updated (just like workflow B) and your browser (`http://localhost:3000`) will be reloaded automatically.
 
 *video here*
-
-# Common Tasks
-### Gulp
-- `gulp`
-- `gulp watch`
-
-### Git
-- `git pull`: fetch latest update of source code & implement it in local machine
-- `git add .`: record all changes in current directory
-- `git commit -m "message here"`: commit recorded changes
-- `git push`: push all committed changes to remote repository so other developers can see the changes & follow up when necessary
-
----
-
-after cloning the code, you may want to try rendering the pages. first, install node: [https://nodejs.org/en/download]() and then, change any file inside `src/pages`. open your node and run `gulp`. your changes should reflect in `dist` directory.
