@@ -1,7 +1,7 @@
 # Nunjucks Starter Kit
 
 ## Requirement
-- Node: [https://nodejs.org/en/download]()
+- Node: [https://nodejs.org/en/download](https://nodejs.org/en/download)
 
 ### How to start
 - download & unzip: [https://github.com/wzulfikar/nunjucks-starter-kit/archive/master.zip](https://github.com/wzulfikar/nunjucks-starter-kit/archive/master.zip)
