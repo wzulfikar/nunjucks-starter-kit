@@ -5,6 +5,7 @@
 
 ### How to start
 - download & unzip: [https://github.com/wzulfikar/nunjucks-starter-kit/archive/master.zip](https://github.com/wzulfikar/nunjucks-starter-kit/archive/master.zip)
+- install dependencies: run `npm i`
 - run `gulp auto`
 - try change something inside `src/pages` & your browser will auto-reload, displaying the change you just made.
 
