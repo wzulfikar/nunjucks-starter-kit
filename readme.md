@@ -9,8 +9,8 @@
 - run `gulp auto`
 - try change something inside `src/pages` & your browser will auto-reload, displaying the change you just made.
 
-<iframe width="420" height="315"
-src="https://youtu.be/H7_yhCvQJDk?autoplay=1">
+<iframe width="420" height="240"
+src="https://www.youtube.com/embed/H7_yhCvQJDk?autoplay=1">
 </iframe>
 
 ---
