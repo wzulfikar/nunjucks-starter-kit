@@ -24,6 +24,7 @@ YouTube: [https://youtu.be/H7_yhCvQJDk](https://youtu.be/H7_yhCvQJDk)
 - serverless
 - can use free service like surge.sh, github pages for hosting
 - minimum knowledge needed: html, css, js – no need for php, ruby, etc.
+- minifier included: just run `gulp minify`
 
 ## Directory Layout
 Here is the project structure:
