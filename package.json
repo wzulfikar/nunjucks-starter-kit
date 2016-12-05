@@ -10,8 +10,9 @@
   "license": "MIT",
   "homepage": "#",
   "devDependencies": {
-    "gulp": "^3.9.1",
     "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
     "gulp-nunjucks-render": "^2.0.0",
     "gulp-watch": "^4.3.11"
   }

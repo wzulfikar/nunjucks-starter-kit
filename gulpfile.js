@@ -1,6 +1,7 @@
 // gulpfile.js
 const gulp  = require('gulp'),
     browserSync = require('browser-sync').create(),
+    htmlmin = require('gulp-htmlmin'),
     nunjucksRender = require('gulp-nunjucks-render'); // importing the plugin
 
 const PATHS = {
@@ -34,6 +35,12 @@ gulp.task('watch', function() {
     
     // reload browsersync when `dist` changes
     gulp.watch(PATHS.output + '/*').on('change', browserSync.reload);
+});
+
+gulp.task('minify', function() {
+  return gulp.src(PATHS.output + '/*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest(PATHS.output));
 });
 
 // run browserSync auto-reload together with nunjucks auto-render
