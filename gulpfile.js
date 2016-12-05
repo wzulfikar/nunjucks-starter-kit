@@ -39,7 +39,13 @@ gulp.task('watch', function() {
 
 gulp.task('minify', function() {
   return gulp.src(PATHS.output + '/*.html')
-    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(htmlmin({
+        collapseWhitespace: true,
+        cssmin: true,
+        jsmin: true,
+        removeOptionalTags: true,
+        removeComments: false
+    }))
     .pipe(gulp.dest(PATHS.output));
 });
 
