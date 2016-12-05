@@ -11,20 +11,22 @@
 
 ![https://youtu.be/H7_yhCvQJDk](screenshot.jpg)
 
-YouTube: [https://youtu.be/H7_yhCvQJDk](https://youtu.be/H7_yhCvQJDk)
+See YouTube video: [https://youtu.be/H7_yhCvQJDk](https://youtu.be/H7_yhCvQJDk)
+
+> *Run `gulp minify` if you want to minify your html files inside `dist` folder*
 
 ---
 
 # Why?
 - works out of the box! 
-- example included: 
+- example included (using bootstrap css): 
   - `src/pages` for page content
   - `src/templates` for page layout
 - output is plain html (stored in `dist` directory)
 - serverless
 - can use free service like surge.sh, github pages for hosting
 - minimum knowledge needed: html, css, js – no need for php, ruby, etc.
-- minifier included: just run `gulp minify`
+- minifier included! use `gulp minify`
 
 ## Directory Layout
 Here is the project structure:
