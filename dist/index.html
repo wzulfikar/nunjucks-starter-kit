@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content=""><meta name="author" content=""><title>Welcome | Bootstrap Layout with Nunjucks</title><!-- Bootstrap Core CSS --><link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"><!-- Custom CSS --><style>body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #222222;
+}
+.footer > .container {
+    margin: 20px;
+}</style><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --><!-- WARNING: Respond.js doesn't work if you view the page via file:// --><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]--></head><body><!-- Navigation --><nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"><div class="container"><!-- declaring var in Nunjucks: use `set` keyword --><!-- Brand and toggle get grouped for better mobile display --><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="/">Start Bootstrap</a></div><!-- Collect the nav links, forms, and other content for toggling --><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><!-- for loop in Nunjucks --><li class="active"><a href="index.html"><span>Home</span></a></li><li><a href="contact-us.html"><span>Contact us</span></a></li><li><a href="in-page-js.html"><span>in-page JS</span></a></li></ul></div><!-- /.navbar-collapse --></div><!-- /.container --></nav><!-- Page Content --><div class="container"><div class="row"><div class="col-lg-12 text-center"><h1>A Bootstrap Starter Template with Nunjucks</h1><p class="lead">Don't forget to read <code>readme.md</code> :D</p><ul class="list-unstyled"><li>Bootstrap v33.7</li><li>jQuery v1.11.1</li></ul></div></div></div><!-- /.container --><footer class="footer"><div class="container"><p class="text-muted">Place sticky footer content here.</p></div></footer><!-- jQuery Version 1.11.1 --><script src="assets/vendor/bootstrap/js/jquery.js"></script><!-- Bootstrap Core JavaScript --><script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script></body></html>
