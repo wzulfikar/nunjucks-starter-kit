@@ -25,7 +25,6 @@ function nunjucks() {
 }
 
 async function browser() {
-  console.log("borser");
   await browserSync.init({
     server: {
       baseDir: PATHS.output,
